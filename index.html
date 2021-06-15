@@ -6,59 +6,78 @@
 </head>
 <body>
 	
-    <div id="outer">
+    <div id="calculator">
         
-        <div id="header">
-            <h1>CALCULATOR</h1>
+        <h1>CALCULATOR</h1>
+        
+        <div id="display">
         </div>
         
-        <div id="screen">
-        </div>
-        
-        <div id="buttons">
-            
-           <h1> <table border="0">
-                <tr id="opr">
-                	<td class="button" value="AC">AC</td>
-					<td class="button" value="+/-">+/-</td> 
-					<td class="button" value="">%</td> 
-					<td class="button" value="/">/</td>
-                </tr>
-                
-                <tr>
-                	<td class="button" value="7">7</td>
-					<td class="button" value="8">8</td> 
-					<td class="button" value="">9</td>
-					<td class="button" value="*" id="opr" >*</td>
-                </tr>
-                
-                <tr>
-                	<td class="button" value="4">4</td> 
-					<td class="button" value="5">5</td>
-					<td	class="button" value="">6</td> 
-					<td class="button" value="-" id="opr">-</td>
-                </tr>
-                
-                <tr>
-                	<td class="button" value="1">1</td> 
-					<td class="button" value="2">2</td> 
-					<td class="button" value="">3</td> 
-					<td class="button" value="+" id="opr">+</td>
-                </tr>
-                
-                <tr>
-                	<td class="button" value="2" colspan="2">0</td> 
-					<td class="button" value=".">.</td> 
-					<td class="button" value="=" id="opr">=</td>
-                </tr>
-               </table> </h1>
+        <div id="buttons-container">
+            <div class="button" id="button-clear" data-value="ac">
+                <span>AC</span>
+            </div>
+            <div class="button" id="button-sign" data-value="sign">
+                <span>+/-</span>
+            </div>
+            <div class="button" id="button-percent" data-value="%">
+                <span> % </span>
+            </div>
+            <div class="button red" data-value="/" id="button-divide">
+                <span> / </span>
+            </div>
+            <div class="button" id="button-seven" data-value="7">
+                <span>7</span>
+            </div>
+            <div class="button" id="button-eight" data-value="8">
+                <span>8</span>
+            </div>
+            <div class="button" id="button-nine" data-value="9">
+                <span>9</span>
+            </div>
+            <div class="button red" id="button-multiply" data-value="*">
+                <span>*</span>
+            </div>
+            <div class="button" id="button-four" data-value="4">
+                <span>4</span>
+            </div>
+            <div class="button" id="button-five" data-value="5">
+                <span>5</span>
+            </div>
+            <div class="button" id="button-six" data-value="6">
+                <span>6</span>
+            </div>
+            <div class="button red" id="button-minus" data-value="-">
+                <span>-</span>
+            </div>
+            <div class="button" id="button-one" data-value="1">
+                <span> 1 </span>
+            </div>
+            <div class="button" id="button-two" data-value="2">
+                <span> 2 </span>
+            </div>
+            <div class="button" id="button-three" data-value="3">
+                <span> 3 </span>
+            </div>
+            <div class="button red" id="button-plus" data-value="+">
+                <span> + </span>
+            </div>
+            <div class="button" id="button-zero" data-value="0">
+                <span> 0 </span>
+            </div>
+            <div class="button" id="button-decimal" data-value=".">
+                <span> . </span>
+            </div>
+            <div class="button red" id="button-equals" data-value="=">
+                <span> = </span>
+            </div>
         </div>
         
     </div>
     
     
     
-    
+    <script type="text/javascript" src="script.js"></script>
     
 </body>
 </html>
